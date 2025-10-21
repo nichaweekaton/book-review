@@ -1,0 +1,16 @@
+.bg-grey {
+    background-color: #d3d3d3;
+}
+ .bg-white {
+    background-color: white;
+ }
+.text-head {
+    font-size: larger;
+}
+body {
+  font-family: Noto serif thai;
+}
+.center-video {
+  display: flex;
+  justify-content: center;
+}
