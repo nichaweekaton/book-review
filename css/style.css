@@ -1,16 +1,106 @@
-.bg-grey {
-    background-color: #d3d3d3;
+.bg-white {
+  background-color: #ffffff;
 }
- .bg-white {
-    background-color: white;
- }
+
+.bg-darkblue {
+  background-color: #D2C1B6;
+  color: #1B3C53;
+}
+
+.home {
+  font-size: 12px;
+  color:#1B3C53;
+}
+
+.bg-footer {
+  background-color: #D2C1B6;
+  color: #1B3C53;
+}
+
 .text-head {
-    font-size: larger;
+  font-size: larger;
 }
+
 body {
-  font-family: Noto serif thai;
+  font-family: 'Noto Serif Thai', serif;
+  color: #1B3C53;
 }
+
 .center-video {
   display: flex;
   justify-content: center;
+}
+
+#why-you-read,
+#what-you-got,
+#value-this {
+  scroll-margin-top: 200px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #F9F3EF;
+  /* พื้นหลังครีมอ่อน */
+  border-bottom: 1px solid #D2C1B6;
+}
+
+.navbar .nav-link {
+  color: #1B3C53;
+}
+
+.navbar .nav-link:hover {
+  color: #1B3C53;
+  font-weight: bold;
+}
+
+.navbar .nav-link.active {
+  color: #1B3C53;
+  font-weight: 600;
+}
+
+/* ปกติ (ยังไม่กด) */
+.accordion-button {
+  background-color: #456882;
+  color: #F9F3EF;
+}
+
+/* ตอน hover */
+.accordion-button:hover {
+  background-color: #D2C1B6;
+  color: #1B3C53;
+}
+
+/* ตอน accordion เปิดอยู่ */
+.accordion-button:not(.collapsed) {
+  background-color: #d2c1b68f;
+  color: #1B3C53;
+  box-shadow: none;
+}
+
+/* เอาเส้นขอบออก (optional) */
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.custom-box {
+    background-color: #F9F3EF; /* สีน้ำเงินเข้มโปร่งใส 50% */
+    color: #1B3C53; /* ตัวอักษรสีขาวอ่านง่าย */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.mobile-break {
+    display: inline;
+}
+
+/* บนหน้าจอเล็ก (มือถือ) ให้ขึ้นบรรทัดใหม่ */
+@media (max-width: 768px) {
+    .mobile-break {
+        display: block;
+    }
 }
